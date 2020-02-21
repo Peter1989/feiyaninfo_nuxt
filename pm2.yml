@@ -1,0 +1,9 @@
+apps:
+  - script: ./server/index.js
+    name: nuxt
+    instances: max
+    exec_mode: cluster
+    env_production:
+      NODE_ENV: production
+      HOST: localhost
+      PORT: 3000
