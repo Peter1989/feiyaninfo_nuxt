@@ -21,11 +21,11 @@ export default {
   .top_text
     color: #fff;
     font-size: 4.5vw;
-    padding-top: 6vh;
+    padding-top: 4vh;
     margin-left: 10vw;
   .btm_text
     color: #fff;
     font-size: 9vw;
-    margin-top: 2vh;
-    margin-left: 10vw;
+    margin-top: 1vh;
+    margin-left: 8vw;
 </style>
