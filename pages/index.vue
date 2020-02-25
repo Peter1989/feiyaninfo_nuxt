@@ -68,6 +68,7 @@ export default {
     overflow: auto
 .beianhao
     font-size: 8px
-    position: relative
+    position: absolute
     bottom: 0px
+    right: 10px
 </style>
