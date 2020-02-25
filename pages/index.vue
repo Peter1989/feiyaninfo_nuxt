@@ -7,6 +7,9 @@
     <div class="tabContent">
         <card class="card" v-for="content in list" :key="content.id" :content="content"></card>
     </div>
+    <div class="beianhao">
+        &copy;2019-2020 suishouji.net ICP证：<a href="http://www.beian.miit.gov.cn">京ICP备15026525号</a>
+    </div>
 </div>
 </template>
 <script>
@@ -62,6 +65,9 @@ export default {
 </script>
 <style lang="stylus" scoped>
 .tabContent
-    overflow: auto;
-
+    overflow: auto
+.beianhao
+    font-size: 8px
+    position: relative
+    bottom: 0px
 </style>
