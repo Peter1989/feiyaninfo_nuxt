@@ -67,8 +67,8 @@ export default {
 .tabContent
     overflow: auto
 .beianhao
-    font-size: 8px
+    font-size: 2vw
     position: absolute
     bottom: 0px
-    right: 10px
+    right: 3vw
 </style>
