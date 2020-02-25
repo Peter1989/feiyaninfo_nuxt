@@ -70,5 +70,5 @@ export default {
     font-size: 2vw
     position: absolute
     bottom: 0px
-    right: 3vw
+    right: 15vw
 </style>
