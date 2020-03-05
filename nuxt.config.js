@@ -46,7 +46,7 @@ module.exports = {
     store:{
        type: 'memory',
        max: 10,
-       ttl: 3
+       ttl: 10
     } 
   },
   proxy: {
