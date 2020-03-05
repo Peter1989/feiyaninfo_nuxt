@@ -39,7 +39,16 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: ['@nuxtjs/proxy'],
+  modules: ['@nuxtjs/proxy', 'nuxt-ssr-cache'],
+  cache:{
+    useHostPrefix: false,
+    pages: ['/'],
+    store:{
+       type: 'memory',
+       max: 10,
+       ttl: 3
+    } 
+  },
   proxy: {
     '/n/': {
       target: 'http://www.suishouji.net',
