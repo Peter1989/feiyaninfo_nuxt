@@ -34,21 +34,22 @@ module.exports = {
   /*
   ** Nuxt.js dev-modules
   */
-  buildModules: [
-  ],
+  buildModules: [],
   /*
   ** Nuxt.js modules
   */
-  modules: ['@nuxtjs/proxy', 'nuxt-ssr-cache'],
-  cache:{
-    useHostPrefix: false,
-    pages: ['/'],
-    store:{
-       type: 'memory',
-       max: 10,
-       ttl: 10
-    } 
-  },
+  //modules: ['@nuxtjs/proxy', 'nuxt-ssr-cache'],
+  //modules: ['@nuxtjs/proxy', ['@nuxtjs/component-cache', { max: 10, maxAge: 1000 * 60 }]],
+  modules: ['@nuxtjs/proxy'],
+  // cache:{
+  //   useHostPrefix: false,
+  //   pages: ['/'],
+  //   store:{
+  //      type: 'memory',
+  //      max: 10,
+  //      ttl: 10
+  //   } 
+  // },
   proxy: {
     '/n/': {
       target: 'http://www.suishouji.net',

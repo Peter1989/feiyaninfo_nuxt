@@ -17,7 +17,9 @@ export default {
   name: 'card',
   props: {
     content: {}
-  }
+  },
+  created(){console.log('card created')},
+  //serverCacheKey: props => props.content.id,
 }
 </script>
 <style lang='stylus' scoped>
